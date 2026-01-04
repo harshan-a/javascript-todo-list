@@ -1,0 +1,35 @@
+.error{
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: red;
+}
+.showTodo1,
+.input{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  row-gap: 10px;
+  column-gap: 10px;
+  align-items: center;
+}
+.input{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+.input-final,
+.due-date{
+  padding: 6px;
+  height: 21px;
+  font-size: 15px;
+}
+.add-btn,
+.del-btn{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+.del-btn{
+  background-color: darkred;
+  padding: 10px 15px;
+}
